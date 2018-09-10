@@ -3,7 +3,7 @@ package com.gavin.creational.prototype.java;
 /**
  * @author gf
  * @date 2018-09-10 11:04
- * @description 具体原型类
+ * @description (Java方式的原型模式实现)具体原型类
  */
 public class ConcretePrototype implements Cloneable {
 

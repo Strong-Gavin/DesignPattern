@@ -5,7 +5,10 @@ import java.io.*;
 /**
  * @author gf
  * @date 2018-09-10 11:12
- * @description 具体原型类(周报场景 每周周报类似 利用原型模式作为模板 创建新周报)
+ * @description 具体原型类
+ * (周报场景 每周周报类似 利用原型模式作为模板 创建新周报)
+ * 1、实现Cloneable接口 复写clone方法 实现deepClone
+ * 2、实现Serializable接口 利用序列化实现deepClone
  */
 public class WeeklyLog implements Cloneable,Serializable {
     private String name;
