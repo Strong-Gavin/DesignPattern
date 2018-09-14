@@ -8,6 +8,6 @@ package com.gavin.creational.singleton.enumsingleton;
 public enum SingleTonWithEnum {
     INSTANCE;
     public void someMethod(){
-        
+
     }
 }
