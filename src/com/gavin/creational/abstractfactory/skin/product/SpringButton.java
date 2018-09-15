@@ -13,6 +13,6 @@ public class SpringButton implements Button {
 
     @Override
     public void display() {
-        logger.info("显示浅绿色按钮");
+        logger.info("显示绿色按钮");
     }
 }

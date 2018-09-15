@@ -13,6 +13,6 @@ public class SummerButton implements Button {
 
     @Override
     public void display() {
-        logger.info("显示浅蓝色按钮");
+        logger.info("显示蓝色按钮");
     }
 }
