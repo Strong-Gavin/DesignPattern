@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ce7c65-0bc6-4509-a335-b71743c85b21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/AngleBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/play/FullModeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/ActorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/ActorBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/ActorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/ActorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/AngleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/AngleBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/DevilBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/DevilBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/HeroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/HeroBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/XMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/XMLUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gavin/creational/builder/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gavin/creational/builder/game/config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +25,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="XMLUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/abstractfactory/mobilegame/utils/XMLUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/XMLUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="751">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/XMLUtils.java">
+      <file leaf-file-name="VideoPlayerBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayerBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+            <state relative-caret-position="161">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding>
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,10 +62,10 @@
         </entry>
       </file>
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="550">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,127 +73,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/Actor.java">
+      <file leaf-file-name="FullModeBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/FullModeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/ActorBuilder.java">
+      <file leaf-file-name="SimplifyModeBulder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/SimplifyModeBulder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="625">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/HeroBuilder.java">
+      <file leaf-file-name="MemoryModeBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/MemoryModeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="211">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoPlayerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AngleBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/AngleBuilder.java">
+      <file leaf-file-name="XMLUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/XMLUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="376">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
               <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DevilBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/DevilBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/ActorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/config.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -191,16 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/product/PictureReader.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/product/JPGReader.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/product/GIFReader.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/PictureReaderFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/JPGReaderPictureReader.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/JPGReaderReader.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/JPGReaderFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/GIFReaderFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/utils/XMLUitls.java" />
-        <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/config.xml" />
         <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/client/Client.java" />
         <option value="$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/utils/XMLUtils.java" />
         <option value="$PROJECT_DIR$/src/com/gavin/creational/abstractfactory/skin/product/Button.java" />
@@ -242,6 +222,16 @@
         <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/config.xml" />
         <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/XMLUtils.java" />
         <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/game/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/FullModeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/SimplifyModeBulder.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/MemoryModeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayerController.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/config.xml" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/XMLUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/gavin/creational/builder/play/Client.java" />
       </list>
     </option>
   </component>
@@ -275,19 +265,12 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -302,6 +285,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,12 +301,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\githubWorkspace\DesignPattern\src\com\gavin\creational\builder\game" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gavin.creational.builder" />
       <recent name="com.gavin.creational.abstractfactory.mobilegame.client" />
       <recent name="com.gavin.creational.abstractfactory.mobilegame.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\githubWorkspace\DesignPattern\src\com\gavin\creational\builder\play" />
       <recent name="G:\githubWorkspace\DesignPattern\src\com\gavin\creational\simplefactory\figure" />
       <recent name="G:\githubWorkspace\DesignPattern\lib" />
     </key>
@@ -338,18 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (5)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gavin.creational.factorymethod.log.client.Client" />
-      <module name="DesignPattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gavin.creational.factorymethod.log.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gavin.creational.factorymethod.picture.client.Client" />
       <module name="DesignPattern" />
@@ -390,6 +368,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gavin.creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gavin.creational.builder.play.Client" />
+      <module name="DesignPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gavin.creational.builder.play.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,19 +425,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (5)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -469,12 +458,13 @@
       <workItem from="1536836397312" duration="1323000" />
       <workItem from="1536888746624" duration="20971000" />
       <workItem from="1536971819844" duration="9134000" />
-      <workItem from="1537021251728" duration="2652000" />
+      <workItem from="1537021251728" duration="2703000" />
+      <workItem from="1537107802500" duration="2731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46875000" />
+    <option name="totallyTimeSpent" value="49657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
@@ -488,19 +478,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72105265" visible="true" weight="0.22907725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7184325" visible="true" weight="0.23229614" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.27894738" side_tool="true" visible="true" weight="0.22907725" />
+      <window_info id="Structure" order="1" sideWeight="0.28156748" side_tool="true" visible="true" weight="0.23229614" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37016574" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23867403" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -521,79 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/product/JPGReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/product/GIFReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/JPGReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/GIFReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/factory/PictureReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/log/utils/XMLUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" selection-start-line="19" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getBean#0;class#XMLUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/log/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/log/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/factorymethod/picture/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -696,9 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,11 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,11 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,11 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,11 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,11 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,11 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,15 +732,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/Actor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="400">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#296#297#0" expanded="true" />
@@ -901,109 +764,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/ActorBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/HeroBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/HeroBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="225">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
             <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
             <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/AngleBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/AngleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="525">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
             <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/DevilBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/DevilBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
+        <state relative-caret-position="525">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/ActorController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/ActorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/config.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/abstractfactory/mobilegame/utils/XMLUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="500">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/XMLUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/ActorBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        <state relative-caret-position="100">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/SimplifyModeBulder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/FullModeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/XMLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/game/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="525">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/XMLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/MemoryModeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/VideoPlayerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gavin/creational/builder/play/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

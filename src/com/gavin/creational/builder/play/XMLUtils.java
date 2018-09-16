@@ -1,4 +1,4 @@
-package com.gavin.creational.builder;
+package com.gavin.creational.builder.play;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -12,8 +12,8 @@ import java.io.IOException;
 
 /**
  * @author gf
- * @date 2018-09-14 17:26
- * @description XML工具类
+ * @description 工具类
+ * @date 2018-09-16 22:57
  */
 public class XMLUtils {
 

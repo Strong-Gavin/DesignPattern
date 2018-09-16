@@ -1,4 +1,4 @@
-package com.gavin.creational.builder;
+package com.gavin.creational.builder.game;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

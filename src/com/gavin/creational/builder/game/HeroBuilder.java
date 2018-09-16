@@ -1,4 +1,4 @@
-package com.gavin.creational.builder;
+package com.gavin.creational.builder.game;
 
 /**
  * @author gf
