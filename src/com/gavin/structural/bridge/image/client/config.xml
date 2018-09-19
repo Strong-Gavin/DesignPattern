@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <className>com.gavin.structural.bridge.image.imageShow.JPGImage</className>
+    <className>com.gavin.structural.bridge.image.imageImpl.UnixImp</className>
+</config>
