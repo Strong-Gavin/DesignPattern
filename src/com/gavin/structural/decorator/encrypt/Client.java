@@ -11,7 +11,7 @@ public class Client {
         String str = "HelloWorld";
 
         Encrypt reverserEncrypt = new ReverseEncrypt(encrypt);
-        Encrypt hashEncrypt = new HashEncrypt(reverserEncrypt);
+        Encrypt hashEncrypt = new ModEncrypt(reverserEncrypt);
 
         hashEncrypt.encryptData(str);
     }

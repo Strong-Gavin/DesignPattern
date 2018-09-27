@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * @date 2018/9/21
  * @decription 抽象装饰类
  */
-public class ComponentDecorator extends Component {
+public abstract class ComponentDecorator extends Component {
     private static final Logger logger = LoggerFactory.getLogger(ComponentDecorator.class);
 
     private Component component; //维持对抽象构件类型对象的引用

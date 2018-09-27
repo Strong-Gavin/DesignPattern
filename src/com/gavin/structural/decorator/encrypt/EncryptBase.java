@@ -5,18 +5,10 @@ package com.gavin.structural.decorator.encrypt;
  * @date 2018/9/21
  * @decription 加密装饰类
  */
-public  class EncryptBase extends Encrypt {
+public  abstract class EncryptBase extends Encrypt {
     private Encrypt encrypt;
 
     public EncryptBase(Encrypt encrypt){
-        this.encrypt = encrypt;
-    }
-
-    public Encrypt getEncrypt() {
-        return encrypt;
-    }
-
-    public void setEncrypt(Encrypt encrypt) {
         this.encrypt = encrypt;
     }
 
